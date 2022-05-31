@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --amarelo-principal: #FFFF00;
+    --branco: #fff;
+    --cinza-300: #999999;
+    --cinza-500: #676767;
+}
+
+body{
+    background-color: var(--branco);
+}
+
+nav{
+    width: 100vw;
+    height: 6rem;
+    /* background-color: var(--cinza-500); */
+}
+
+.logo{
+    width: 4.7rem;
+    margin: 0.65rem 2rem;
+}
+
+.line{
+    width: 100vw;
+    height: 7px;
+    background-color: var(--amarelo-principal);
+}
